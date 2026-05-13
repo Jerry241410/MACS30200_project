@@ -1,8 +1,6 @@
 # 30200 Project Reproducibility Package
 
-This folder contains the code, regenerated plots, report artifacts, and paper upload file for:
-
-`A_Thorough_Analysis_of_Imbalances_in_Consolidated_Trades_Within_the_Bid_Ask_Spread (2).pdf`
+This folder contains the code, regenerated plots, report artifacts, and paper upload file 
 
 Raw WRDS/TAQ CSV data are intentionally not included in this upload. They can be recreated with the retrieval scripts in `code/`.
 
@@ -60,51 +58,3 @@ python analysis2.py --ticker META --output D:\30200_project\reports\meta_local_n
 ```
 
 The `plot/meta_microstructure_*.png` files are PNG exports of figures that were originally produced inside the microstructure PDF report from `analysis.py`.
-
-## Plots
-
-### Meta Daily Drifting Future Return Volatility
-![Meta Daily Drifting Future Return Volatility](plot/meta_daily_drifting_future_return_volatility.png)
-
-### Meta Daily Drifting Parameter Comparison
-![Meta Daily Drifting Parameter Comparison](plot/meta_daily_drifting_parameter_comparison.png)
-
-### Meta Daily Non Drifting Future Return Volatility
-![Meta Daily Non Drifting Future Return Volatility](plot/meta_daily_non_drifting_future_return_volatility.png)
-
-### Meta Daily Non Drifting Parameter Comparison
-![Meta Daily Non Drifting Parameter Comparison](plot/meta_daily_non_drifting_parameter_comparison.png)
-
-### Meta Daily Summary Stats Table Page 1
-![Meta Daily Summary Stats Table Page 1](plot/meta_daily_summary_stats_table_page_1.png)
-
-### Meta Diffusion Baseline Average Paths Drifting
-![Meta Diffusion Baseline Average Paths Drifting](plot/meta_diffusion_baseline_average_paths_drifting.png)
-
-### Meta Diffusion Baseline Average Paths Non Drifting
-![Meta Diffusion Baseline Average Paths Non Drifting](plot/meta_diffusion_baseline_average_paths_non_drifting.png)
-
-### Meta Example Path Daily 2025 12 30 15 59 00
-![Meta Example Path Daily 2025 12 30 15 59 00](plot/meta_example_path_daily_2025_12_30_15_59_00.png)
-
-### Meta Microstructure Distribution Bid Ask Spread Log Scale
-![Meta Microstructure Distribution Bid Ask Spread Log Scale](plot/meta_microstructure_distribution_bid_ask_spread_log_scale.png)
-
-### Meta Microstructure Distribution Trade Volume Above Mid
-![Meta Microstructure Distribution Trade Volume Above Mid](plot/meta_microstructure_distribution_trade_volume_above_mid.png)
-
-### Meta Microstructure Distribution Trade Volume At Mid
-![Meta Microstructure Distribution Trade Volume At Mid](plot/meta_microstructure_distribution_trade_volume_at_mid.png)
-
-### Meta Microstructure Distribution Trade Volume Below Mid
-![Meta Microstructure Distribution Trade Volume Below Mid](plot/meta_microstructure_distribution_trade_volume_below_mid.png)
-
-### Meta Microstructure Distribution Vwap Differences
-![Meta Microstructure Distribution Vwap Differences](plot/meta_microstructure_distribution_vwap_differences.png)
-
-### Meta Microstructure Monthly Average Bid Ask Spread
-![Meta Microstructure Monthly Average Bid Ask Spread](plot/meta_microstructure_monthly_average_bid_ask_spread.png)
-
-### Meta Q90 Abnormal Screen Frequency
-![Meta Q90 Abnormal Screen Frequency](plot/meta_q90_abnormal_screen_frequency.png)
-
